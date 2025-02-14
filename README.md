@@ -11,11 +11,8 @@ It is generated with [Stainless](https://www.stainlessapi.com/).
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:stainless-sdks/test-trebllewith-stainless-node.git
+npm install test-trebllewith-stainless
 ```
-
-> [!NOTE]
-> Once this package is [published to npm](https://app.stainlessapi.com/docs/guides/publish), this will become: `npm install test-trebllewith-stainless`
 
 ## Usage
 
@@ -212,7 +209,7 @@ import TestTrebllewithStainless from 'test-trebllewith-stainless';
 ```
 
 To do the inverse, add `import "test-trebllewith-stainless/shims/node"` (which does import polyfills).
-This can also be useful if you are getting the wrong TypeScript types for `Response` ([more details](https://github.com/stainless-sdks/test-trebllewith-stainless-node/tree/main/src/_shims#readme)).
+This can also be useful if you are getting the wrong TypeScript types for `Response` ([more details](https://github.com/timpratim/personal-blog/tree/main/src/_shims#readme)).
 
 ### Logging and middleware
 
@@ -263,12 +260,12 @@ await client.pets.list({
 This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) conventions, though certain backwards-incompatible changes may be released as minor versions:
 
 1. Changes that only affect static types, without breaking runtime behavior.
-2. Changes to library internals which are technically public but not intended or documented for external use. _(Please open a GitHub issue to let us know if you are relying on such internals)_.
+2. Changes to library internals which are technically public but not intended or documented for external use. _(Please open a GitHub issue to let us know if you are relying on such internals.)_
 3. Changes that we do not expect to impact the vast majority of users in practice.
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/test-trebllewith-stainless-node/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/timpratim/personal-blog/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 
